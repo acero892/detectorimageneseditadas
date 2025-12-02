@@ -163,8 +163,8 @@ def overlay_heatmap_on_image(img_pil, heatmap, alpha=0.5, cmap='jet'):
 # -------------------------
 # Streamlit UI + Pipeline
 # -------------------------
-st.set_page_config(page_title="Detector Deep Learning de Edición", layout="wide")
-st.title("🔬 Detector De Imágenes Editadas")
+st.set_page_config(page_title="A0 DL", layout="wide")
+st.title("💀 Detector De Imágenes by A0")
 st.markdown("Sube una imagen, el modelo extrae embeddings por parches y computa un mapa de anomalías (sin necesidad de dataset de entrenamiento).")
 
 col1, col2 = st.columns([1,1])
@@ -286,5 +286,5 @@ if uploaded is not None:
     else:
         st.success("🟢 No se detectan anomalías fuertes — la imagen parece consistente.")
 
-    st.markdown("**Notas sobre la técnica:** este método es no supervisado y detecta *anomalías* en el espacio de características. Es capaz de señalar zonas donde el contenido no encaja con el resto (clonado, pegado, retocado), pero no es infalible: artefactos por compresión, ruido o técnicas de retoque sutiles pueden afectar el resultado.")
+    st.markdown("A0")
 
