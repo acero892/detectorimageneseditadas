@@ -165,7 +165,7 @@ def overlay_heatmap_on_image(img_pil, heatmap, alpha=0.5, cmap='jet'):
 # -------------------------
 st.set_page_config(page_title="A0 DL", layout="wide")
 st.title("💀 Detector De Imágenes by A0")
-st.markdown("Sube una imagen, el modelo extrae embeddings por parches y computa un mapa de anomalías (sin necesidad de dataset de entrenamiento).")
+st.markdown("Sube una imagen y deja que el modelo analice")
 
 col1, col2 = st.columns([1,1])
 
